@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [{
+        "type": "minecraft:item",
+        "name": "craftsmanship:three_pillar_block"
+      }],
+      "conditions": [{
+        "condition": "minecraft:survives_explosion"
+      }]
+    }
+  ]
+}

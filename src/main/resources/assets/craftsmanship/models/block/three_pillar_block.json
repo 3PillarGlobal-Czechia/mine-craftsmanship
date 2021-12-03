@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "craftsmanship:block/three_pillar_block",
+    "up": "craftsmanship:block/three_pillar_block",
+    "down": "craftsmanship:block/three_pillar_block",
+    "north": "craftsmanship:block/three_pillar_block",
+    "south": "craftsmanship:block/three_pillar_block",
+    "east": "craftsmanship:block/three_pillar_block",
+    "west": "craftsmanship:block/three_pillar_block"
+  }
+}
