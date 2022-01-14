@@ -2,5 +2,12 @@
   "itemGroup.craftsmanship.blocks": "3PillarGlobal Blocks",
   "itemGroup.craftsmanship.items": "3PillarGlobal Items",
 
-  "block.craftsmanship.three_pillar_block": "3PillarGlobal Block"
+  "block.craftsmanship.three_pillar_block": "3PillarGlobal Block",
+
+  "item.craftsmanship.knowledge_book": "Knowledge Book",
+  "item.craftsmanship.knowledge_book.effect.minecraft.speed": "Knowledge of Movement",
+  "item.craftsmanship.knowledge_book.effect.minecraft.health_boost": "Knowledge of Health",
+  "item.craftsmanship.knowledge_book.effect.minecraft.haste": "Knowledge of Mining",
+  "item.craftsmanship.knowledge_book.effect.minecraft.resistance": "Knowledge of Defense",
+  "item.craftsmanship.knowledge_book.effect.minecraft.luck": "Knowledge of Luck"
 }

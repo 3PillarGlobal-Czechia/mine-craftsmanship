@@ -1,6 +1,8 @@
 package com.threepillarglobal.craftsmanship;
 
 import com.threepillarglobal.craftsmanship.block.ModBlocks;
+import com.threepillarglobal.craftsmanship.item.ModItems;
+import com.threepillarglobal.craftsmanship.loot.function.ModLootFunctionTypes;
 import net.fabricmc.api.ModInitializer;
 
 public class Craftsmanship implements ModInitializer {
@@ -10,5 +12,9 @@ public class Craftsmanship implements ModInitializer {
     public void onInitialize() {
         ModBlocks.registerBlocks();
         ModBlocks.registerBlockItems();
+
+        ModItems.registerItems();
+
+        ModLootFunctionTypes.registerLootFunctionTypes();
     }
 }

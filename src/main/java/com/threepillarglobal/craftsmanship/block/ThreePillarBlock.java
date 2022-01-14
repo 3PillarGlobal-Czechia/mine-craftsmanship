@@ -23,7 +23,6 @@ public class ThreePillarBlock extends Block {
                 .sounds(BlockSoundGroup.WOOD)
                 .strength(2.5f)
                 .breakByHand(false)
-                .breakByTool(FabricToolTags.AXES, 1)
                 .requiresTool());
 
         setDefaultState(getStateManager().getDefaultState().with(FACING, Direction.NORTH));
