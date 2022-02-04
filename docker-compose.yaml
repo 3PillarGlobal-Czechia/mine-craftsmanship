@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+  mine-creaftsmanship-server:
+    image: 3pillarglobal.com/mine-craftsmanship-server:latest
+    restart: always
+    environment:
+      EULA: "TRUE"
+    ports:
+      - "25565:25565"
+    networks:
+      - mine-craftsmanhsip-network
+
+networks:
+  mine-craftsmanhsip-network:
+    driver: bridge
