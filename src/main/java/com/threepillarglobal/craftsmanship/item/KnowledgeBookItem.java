@@ -2,7 +2,6 @@ package com.threepillarglobal.craftsmanship.item;
 
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
@@ -12,7 +11,6 @@ import net.minecraft.item.ItemUsage;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtElement;
 import net.minecraft.nbt.NbtList;
-import net.minecraft.particle.ParticleType;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
