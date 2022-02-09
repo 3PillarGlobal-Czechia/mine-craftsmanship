@@ -5,7 +5,6 @@ services:
     image: 3pillarglobal.com/mine-craftsmanship-server:latest
     environment:
       TYPE: FABRIC
-      FABRIC_LOADER_VERSION: 0.13.1
       EULA: "TRUE"
       ONLINE_MODE: "FALSE"
       MODE: creative
@@ -13,12 +12,7 @@ services:
       - "25565:25565"
     networks:
       - mine-craftsmanhsip-network
-    volumes:
-      - ./minecraft-data:/data
 
 networks:
   mine-craftsmanhsip-network:
     driver: bridge
-
-volumes:
-  mc:

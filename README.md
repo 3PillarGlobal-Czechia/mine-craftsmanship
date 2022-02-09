@@ -55,7 +55,7 @@ You need to build docker image first.
 ```
 * you can start new container with name 'mc' and with prepared mode.
 ```
-docker run -e EULA=TRUE -d -p 25565:25565 --name mc 3pillarglobal.com/mine-craftsmanship-server
+docker run -e EULA=TRUE -e TYPE=FABRIC -e ONLINE_MODE="FALSE" -e MODE=creative -d -p 25565:25565 --name mc 3pillarglobal.com/mine-craftsmanship-server
 ```
 
 ### 3. Docker compose
