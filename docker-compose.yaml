@@ -9,6 +9,7 @@ services:
       TYPE: FABRIC
       EULA: "TRUE"
       ONLINE_MODE: "FALSE"
+      SYNC_CHUNK_WRITES: "FALSE"
       MODE: creative
     ports:
       - "25565:25565"

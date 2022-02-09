@@ -55,11 +55,17 @@ You need to build docker image first.
 ```
 * you can start new container with name 'mc' and with prepared mode.
 ```
-docker run -e EULA=TRUE -e TYPE=FABRIC -e ONLINE_MODE="FALSE" -e MODE=creative -d -p 25565:25565 --name mc 3pillarglobal.com/mine-craftsmanship-server
+docker run \
+-e TYPE=FABRIC \
+-e EULA="TRUE" \
+-e ONLINE_MODE="FALSE" \
+-e SYNC_CHUNK_WRITES="FALSE" \
+-e MODE=creative \
+-d -p 25565:25565 --name mc 3pillarglobal.com/mine-craftsmanship-server
 ```
 
 ### 3. Docker compose
-You can use docker compose to run server locally as well. You need to have built image along previous section and instead of running 'docker run...' you can use in the project root 
+You can use docker compose to run server locally as well. Instead of running 'docker run...' you can call:
 ```
 docker-compose up
 ```
