@@ -3,14 +3,22 @@ version: '3.1'
 services:
   mine-creaftsmanship-server:
     image: 3pillarglobal.com/mine-craftsmanship-server:latest
-    restart: always
     environment:
+      TYPE: FABRIC
+      FABRIC_LOADER_VERSION: 0.13.1
       EULA: "TRUE"
+      ONLINE_MODE: "FALSE"
+      MODE: creative
     ports:
       - "25565:25565"
     networks:
       - mine-craftsmanhsip-network
+    volumes:
+      - ./minecraft-data:/data
 
 networks:
   mine-craftsmanhsip-network:
     driver: bridge
+
+volumes:
+  mc:
