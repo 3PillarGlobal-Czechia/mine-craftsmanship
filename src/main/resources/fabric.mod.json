@@ -21,7 +21,7 @@
     "craftsmanship.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.13.1",
+    "fabricloader": ">=0.13.0",
     "fabric": ">=0.10.0",
     "minecraft": "1.18.1"
   }

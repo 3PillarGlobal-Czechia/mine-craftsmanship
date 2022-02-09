@@ -2,7 +2,9 @@ version: '3.1'
 
 services:
   mine-creaftsmanship-server:
-    image: 3pillarglobal.com/mine-craftsmanship-server:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
     environment:
       TYPE: FABRIC
       EULA: "TRUE"
