@@ -3,7 +3,6 @@ package com.threepillarglobal.craftsmanship.loot.function;
 import com.google.gson.*;
 import com.threepillarglobal.craftsmanship.item.KnowledgeBookItem;
 import com.threepillarglobal.craftsmanship.item.ModItems;
-import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.ItemStack;
@@ -68,9 +67,9 @@ public class RandomKnowledgeLootFunction extends ConditionalLootFunction {
         return stack;
     }
 
-    public static class Builder extends  ConditionalLootFunction.Builder<Builder> {
+    public static class Builder extends  ConditionalLootFunction.Builder<com.threepillarglobal.craftsmanship.loot.function.RandomKnowledgeLootFunction.Builder> {
         @Override
-        protected Builder getThisBuilder() { return this; }
+        protected com.threepillarglobal.craftsmanship.loot.function.RandomKnowledgeLootFunction.Builder getThisBuilder() { return this; }
 
         @Override
         public LootFunction build() { return new RandomKnowledgeLootFunction(this.getConditions()); }
