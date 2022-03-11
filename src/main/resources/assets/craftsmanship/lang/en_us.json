@@ -9,5 +9,7 @@
   "item.craftsmanship.knowledge_book.effect.minecraft.health_boost": "Knowledge of Health",
   "item.craftsmanship.knowledge_book.effect.minecraft.haste": "Knowledge of Mining",
   "item.craftsmanship.knowledge_book.effect.minecraft.resistance": "Knowledge of Defense",
-  "item.craftsmanship.knowledge_book.effect.minecraft.luck": "Knowledge of Luck"
+  "item.craftsmanship.knowledge_book.effect.minecraft.luck": "Knowledge of Luck",
+
+  "entity.craftsmanship.boar": "Wild Boar"
 }

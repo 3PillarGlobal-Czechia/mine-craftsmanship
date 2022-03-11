@@ -1,5 +1,6 @@
 package com.threepillarglobal.craftsmanship.client;
 
+import com.threepillarglobal.craftsmanship.entity.ModEntities;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -8,6 +9,7 @@ import net.fabricmc.api.Environment;
 public class CraftsmanshipClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-
+        ModEntities.registerModelLayers();
+        ModEntities.registerRenderers();
     }
 }
