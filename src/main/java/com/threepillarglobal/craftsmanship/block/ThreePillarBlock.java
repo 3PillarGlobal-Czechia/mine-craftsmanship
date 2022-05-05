@@ -2,7 +2,6 @@ package com.threepillarglobal.craftsmanship.block;
 
 import com.threepillarglobal.craftsmanship.Craftsmanship;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.HorizontalFacingBlock;
@@ -22,7 +21,6 @@ public class ThreePillarBlock extends Block {
         super(FabricBlockSettings.of(Material.WOOD)
                 .sounds(BlockSoundGroup.WOOD)
                 .strength(2.5f)
-                .breakByHand(false)
                 .requiresTool());
 
         setDefaultState(getStateManager().getDefaultState().with(FACING, Direction.NORTH));
