@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 1.0
+              },
+              "add": false
+            },
+            {
+              "function": "craftsmanship:random_knowledge"
+            }
+          ],
+          "name": "craftsmanship:knowledge_book"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:clay_ball"
+        }
+      ]
+    }
+  ]
+}

@@ -11,5 +11,6 @@
   "item.craftsmanship.knowledge_book.effect.minecraft.resistance": "Knowledge of Defense",
   "item.craftsmanship.knowledge_book.effect.minecraft.luck": "Knowledge of Luck",
 
-  "entity.craftsmanship.boar": "Wild Boar"
+  "entity.craftsmanship.boar": "Wild Boar",
+  "entity.craftsmanship.clayman": "Clayman"
 }
