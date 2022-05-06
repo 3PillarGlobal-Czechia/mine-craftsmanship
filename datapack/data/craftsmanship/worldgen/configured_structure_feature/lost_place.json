@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:village",
+	"config": {
+		"start_pool": "craftsmanship:lost_place",
+		"size": 1
+	},
+	"biomes": "craftsmanship:clay_meadow",
+	"adapt_noise": true,
+	"spawn_overrides": {}
+}
