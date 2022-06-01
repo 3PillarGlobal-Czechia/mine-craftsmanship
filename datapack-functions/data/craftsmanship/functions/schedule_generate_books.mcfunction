@@ -1,0 +1,2 @@
+schedule function craftsmanship:generate_books 120s append
+schedule function craftsmanship:schedule_generate_books 120s append
